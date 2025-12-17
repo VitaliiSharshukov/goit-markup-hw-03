@@ -117,6 +117,8 @@ align-items: center;
 
 .section-solutions {
   background: #2e2f42;
+  max-width: 1440px;
+  height: 600px;
 }
 
 .section-solution-title {
