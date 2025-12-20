@@ -325,7 +325,9 @@ padding: 120px 0;
 /* ------Footer------ */
 
 .footer {
-  background: #2e2f42;
+  background: #2e2f42;  
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -351,8 +353,6 @@ padding: 120px 0;
 }
 
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
   display: block;
 }
 
