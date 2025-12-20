@@ -165,6 +165,7 @@ align-items: center;
   height: 56px;
   display: block;
   margin: 0 auto;
+  border: none;
 }
 .btn-service:hover,
 .btn-service:focus {
