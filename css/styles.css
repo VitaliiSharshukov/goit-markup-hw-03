@@ -135,7 +135,9 @@ align-items: center;
 }
 
 .solution {
-   justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-solution-title {
