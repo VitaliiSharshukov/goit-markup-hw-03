@@ -28,12 +28,13 @@ h1, h2, h3, h4, h5, h6, p {
 section {
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  padding: 0;
 }
 
 .page-header {
@@ -133,8 +134,7 @@ align-items: center;
 }
 
 .solution {
-  padding: 188px auto;
-  justify-items: center;
+   justify-items: center;
 }
 
 .section-solution-title {
@@ -188,6 +188,11 @@ align-items: center;
 .features-section {
  display: flex;
  gap: 24px;
+ padding: 0;
+}
+
+.features-list {
+  max-width: calc((100% - 24px * 3) / 4);
 }
 
 .features-title {
@@ -237,11 +242,8 @@ align-items: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  max-width: calc ((100% - 24px * 3) / 4);
 }
-
-/* .img-team {
-
-} */
 
 .card-subtitle {
 max-width: 232px;
@@ -280,6 +282,7 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-section {
@@ -287,19 +290,13 @@ padding: 120px 0;
   gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 72px;
+  gap: 48px 24px;
 }
 
 .project-cards {
   background: #fff;
-  max-width: 360px;
-}
-
-.img-portfolio {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+  max-width: calc((100% - 24px * 2) / 3);
+  }
 
 .portfolio-subject {
   border-bottom: 1px solid #e7e9fc;
