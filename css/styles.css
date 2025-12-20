@@ -185,7 +185,7 @@ align-items: center;
 }
 
 .features {
-  padding: 120px 156px;
+  padding: 120px 0px;
 }
 
 .features-section {
@@ -218,7 +218,7 @@ align-items: center;
 
 .team {
   background: #f4f4fd;
-  padding: 120px 156px;
+  padding: 120px 0px;
 }
 
 .team-title {
