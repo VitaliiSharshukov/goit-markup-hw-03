@@ -288,7 +288,6 @@ padding: 120px 0;
 
 .portfolio-section {
   display: flex;
-  gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
   gap: 48px 24px;
