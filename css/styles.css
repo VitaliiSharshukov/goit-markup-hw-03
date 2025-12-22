@@ -240,7 +240,6 @@ img {
 
 .team-section {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
@@ -299,7 +298,6 @@ img {
 
 .portfolio-section {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
