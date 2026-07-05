@@ -9,10 +9,6 @@
   gap: 40px;
 }
 
-.logo{
-  margin-right: 76px;
-  padding: 24px 0;
-}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -23,6 +19,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;  
+    margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-part-logo {
