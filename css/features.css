@@ -1,3 +1,13 @@
+.features-section {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+
+.features-list {
+  flex-basis: calc((100% - 23px * 3) / 4);
+}
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -5,6 +15,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-text {
