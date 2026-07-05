@@ -1,14 +1,17 @@
 .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
-  padding-top: 24px;
-  padding-bottom: 24px;
+}
+
+.header-container {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .logo{
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -20,7 +23,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;  
-  padding: 24px 0;
 }
 
 .header-part-logo {
@@ -48,6 +50,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
   padding: 24px 0;
 }
 
